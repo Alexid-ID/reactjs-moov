@@ -12,9 +12,9 @@ import logo from "../../assets/moov.png";
 const Header = () => {
 	const [show, setShow] = useState("top");
 	const [lastScrollY, setLastScrollY] = useState(0);
-	const [mobileMenu, setMobileMenu] = useState(false);
+	const [mobileMenu, setMobileMenu] = useState("");
 	const [query, setQuery] = useState("");
-	const [showSearch, setShowSearch] = useState(true);
+	const [showSearch, setShowSearch] = useState("");
 	const navigate = useNavigate();
 	const location = useLocation();
 
