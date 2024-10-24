@@ -15,13 +15,20 @@ To get started with this project, follow these steps:
     cd <repository-name>
     ```
 
-2. **Install dependencies:**
+2. **Create a `.env` file in the root of the project and add the following environment variables:**
+
+    ```sh
+    VITE_TMDB_API_KEY=<your-tmdb-api-key>
+    ```
+    You can get an API key by creating an account on [The Movie Database (TMDb)](https://www.themoviedb.org/documentation/api).
+
+3. **Install dependencies:**
 
     ```sh
     npm install
     ```
 
-3. **Start the development server:**
+4. **Start the development server:**
     ```sh
     npm run dev
     ```
